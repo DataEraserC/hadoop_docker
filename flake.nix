@@ -26,7 +26,7 @@
             bashInteractive
           ];
           config = {
-            Cmd = ["bash"];
+            Cmd = ["${pkgs.bashInteractive}/bin/bash"];
           };
         };
 
